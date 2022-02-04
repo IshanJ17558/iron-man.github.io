@@ -1,0 +1,17 @@
+@include media-breakpoint-up(sm) {
+    .mainNameText {
+      font-size: .5rem;
+    }
+  }
+  
+@include media-breakpoint-up(md) {
+    .mainNameText {
+      font-size: 3rem;
+    }
+  }
+  
+@include media-breakpoint-up(lg) {
+    .mainNameText {
+      font-size: 4rem;
+    }
+  }

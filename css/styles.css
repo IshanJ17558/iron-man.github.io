@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  background-color: #B33030;
+  width: auto;
+  max-width: 80%;
+  margin: auto;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+#navSection {
+  text-align: right;
+  background-color: white;
+  padding: 10px 10px 10px 0;
+  font-size: 1rem;
+  padding: 0pt;
+}
+
+#navSection a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #B33030;
+  padding: 10px;
+}
+
+#hederSection {
+  background: linear-gradient(45deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../images/13.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0%;
+  position: relative;
+  text-align: center;
+  margin-top: 3px;
+  min-height: 600px;
+  height: auto;
+  width: 100%;
+}
+
+.headerSectionMainImg {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0px 0px -300px 0px;
+  opacity: .4;
+}
+
+.mainNameText {
+  display: inline-block;
+  text-align: center;
+  font-family: 'Comforter', cursive;
+  font-size: 4rem;
+  position: absolute;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  font-style: oblique;
+  opacity: .8;
+}
+
+.shortDescriptionText {
+  text-align: center;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  position: absolute;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .8;
+}
+
+#aboutMeSection {
+  position: static;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  width: auto;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.subHeadingsLeft {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+
+.subContents {
+  display: flexbox;
+  position: relative;
+  text-align: justify;
+  font-size: 1.5rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  padding: 5%;
+}
+
+#myFilmsSection {
+  text-align: center;
+  background-color: #B33030;
+  color: white;
+  font-size: 2rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  width: auto;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.subHeadingRight {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  margin-top: 40px;
+  font-size: 2rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.Iron-Man-endgame-1 {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  margin-top: 20%;
+  transform: translate(0, -25%);
+
+}
+
+#contactMeSection {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  position: static;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+  width: auto;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+.subHeadings {
+  position: relative;
+  display: inline-block;
+  font-size: 2rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.contactMeSection2ndDiv {
+  width: 80%;
+}
+
+.contactMeSectionIconDivs {
+  padding-bottom: 20px;
+}
+
+.contactMeSectionIcons {
+  height: 40px;
+  width: 40px;
+  padding-top: 5px;
+  font-size: 30px;
+  background-color: #B33030;
+  color: #fff;
+  border-radius: 45%;
+}
+
+.contactMeSectionIcons:hover{
+  background-color: #e05353;
+  color: black;
+}
+
+#gallerySection {
+  text-align: center;
+  background-color: #B33030;
+  color: white;
+  font-size: 2rem;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  width: auto;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-top: 20px;
+}
+
+.galleryHeading {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  width: auto;
+  padding-top: 60px;
+}
+
+.galleryImageDiv {
+  padding: 0;
+}
+
+.galleryImageDiv img {
+  padding: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.h2transfome {
+  display: inline-block;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+
+footer {
+  text-align: center;
+  background-color: #B33030;
+  color: #fff;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+footer h1{
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+.cards {
+  width: auto;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.cards p {
+  color: black;
+}
